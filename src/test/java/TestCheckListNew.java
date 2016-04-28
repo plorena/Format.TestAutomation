@@ -1,4 +1,4 @@
-﻿import Framework.Annotation.Entites.Jira;
+import Framework.Annotation.Entites.Jira;
 import Framework.Annotation.Entites.TestCheckList;
 import Framework.Annotation.Entites.UserStoryInfo;
 import Framework.GUITestServiceProvider;
@@ -8,16 +8,16 @@ import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
 
 @UserStoryInfo(sprint = "N/A", priority = UserStoryInfo.Priority.MEDIUM)
-public class TestCheckListTest extends TestProviderBase {
+public class TestCheckListNew extends TestProviderBase {
 
 
     GUITestServiceProvider gui;
     Screen screen;
 
-    public TestCheckListTest()
+    public TestCheckListNew()
     {
-         screen = new Screen();
-         gui = new GUITestServiceProvider(screen, "C:\Formatech.TestAutomation\Format.TestAutomation\src\test\Images", "C:\\Failed\\");
+        screen = new Screen();
+        gui = new GUITestServiceProvider(screen, "C:\\Formatech.TestAutomation\\Format.TestAutomation\\src\\test\\Images", "C:\\Failed\\");
     }
 
     @Test
