@@ -1,4 +1,4 @@
-import Framework.Annotation.Entites.Jira;
+﻿import Framework.Annotation.Entites.Jira;
 import Framework.Annotation.Entites.TestCheckList;
 import Framework.Annotation.Entites.UserStoryInfo;
 import Framework.GUITestServiceProvider;
@@ -17,7 +17,7 @@ public class TestCheckListTest extends TestProviderBase {
     public TestCheckListTest()
     {
          screen = new Screen();
-         gui = new GUITestServiceProvider(screen, "C:\\Formatech.TestAutomation\\src\\test\\Images", "C:\\Failed\\");
+         gui = new GUITestServiceProvider(screen, "C:\Formatech.TestAutomation\Format.TestAutomation\src\test\Images", "C:\\Failed\\");
     }
 
     @Test
