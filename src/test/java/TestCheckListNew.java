@@ -22,6 +22,7 @@ public class TestCheckListNew extends TestProviderBase {
     }
 
     ///HEre the comment
+    //anoter dummy comment
     @Test
     @TestCheckList(Codes = "000",
             Thèmes = "Connexion  000-01 | Connexion 000-02",
