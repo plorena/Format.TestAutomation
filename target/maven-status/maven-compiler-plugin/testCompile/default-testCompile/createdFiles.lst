@@ -6,6 +6,7 @@ Framework\GUITestServiceProvider.class
 Framework\TestProviderBase.class
 AnnotationFactoryUnitTest0003.class
 Framework\Annotation\Entites\UserStoryInfo$Priority.class
+Dummy\Addition.class
 Framework\Annotation\Entites\TestCheckList$TypeClient.class
 Framework\Annotation\Entites\UserStoryInfo.class
 TestCheckListTest.class
