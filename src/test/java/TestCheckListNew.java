@@ -21,6 +21,7 @@ public class TestCheckListNew extends TestProviderBase {
         gui = new GUITestServiceProvider(screen, "C:\\Formatech.TestAutomation\\src\\test\\Images\\", "C:\\Failed\\");
     }
 
+    ///HEre the comment
     @Test
     @TestCheckList(Codes = "000",
             Thèmes = "Connexion  000-01 | Connexion 000-02",
