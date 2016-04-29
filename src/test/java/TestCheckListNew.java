@@ -18,7 +18,7 @@ public class TestCheckListNew extends TestProviderBase {
     public TestCheckListNew()
     {
         screen = new Screen();
-        gui = new GUITestServiceProvider(screen, "C:\\Formatech.TestAutomation\\Format.TestAutomation\\src\\test\\Images", "C:\\Failed\\");
+        gui = new GUITestServiceProvider(screen, "C:\\Formatech.TestAutomation\\src\\test\\Images\\", "C:\\Failed\\");
     }
 
     @Test
