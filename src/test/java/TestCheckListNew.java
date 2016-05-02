@@ -8,8 +8,6 @@ import org.junit.Test;
 import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
 
-
-///This is  a class dEMO
 @UserStoryInfo(sprint = "N/A", priority = UserStoryInfo.Priority.MEDIUM)
 public class TestCheckListNew extends TestProviderBase {
 
@@ -24,9 +22,6 @@ public class TestCheckListNew extends TestProviderBase {
     }
 
     ///Here the comment
-    /// another commment
-    //WTF!
-    //anoter dummy comment
     @Test
     @TestCheckList(Codes = "000",
             Thèmes = "Connexion  000-01 | Connexion 000-02",
@@ -56,6 +51,13 @@ public class TestCheckListNew extends TestProviderBase {
     Addition add = new Addition();
     org.junit.Assert.assertEquals(7, add.getResult(3,4));
 }
+
+    @Test
+    public void getResultSubstraction()
+    {
+        Addition add = new Addition();
+        org.junit.Assert.assertEquals(6, add.getResultSubstraction(8,2));
+    }
 
 
 }

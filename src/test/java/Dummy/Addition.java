@@ -10,4 +10,9 @@ public class Addition {
     {
      return a+b;
     }
+
+    public int  getResultSubstraction(int a, int b)
+    {
+        return a-b;
+    }
 }
