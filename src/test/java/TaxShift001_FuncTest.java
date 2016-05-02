@@ -1,25 +1,26 @@
-import Dummy.Addition;
-import Framework.Annotation.Entites.Jira;
 import Framework.Annotation.Entites.TestCheckList;
 import Framework.Annotation.Entites.UserStoryInfo;
 import Framework.GUITestServiceProvider;
 import Framework.TestProviderBase;
 import org.junit.Test;
-import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
 
+/**
+ * Created by paul.lorena on 02/05/2016.
+ */
 @UserStoryInfo(sprint = "N/A", priority = UserStoryInfo.Priority.MEDIUM)
-public class TestCheckListNew extends TestProviderBase {
+public class TaxShift001_FuncTest extends TestProviderBase {
 
 
     GUITestServiceProvider gui;
     Screen screen;
 
-    public TestCheckListNew()
+    public TaxShift001_FuncTest()
     {
         screen = new Screen();
         gui = new GUITestServiceProvider(screen, "C:\\Formatech.TestAutomation\\src\\test\\Images\\", "C:\\Failed\\");
     }
+
 
     ///Here the comment
     @Test
@@ -43,21 +44,4 @@ public class TestCheckListNew extends TestProviderBase {
             super.HandleException(screen, gui, e);
         }
     }
-
-
-@Test
-    public void Addition0001()
-{
-    Addition add = new Addition();
-    org.junit.Assert.assertEquals(7, add.getResult(3,4));
-}
-
-    @Test
-    public void getResultSubstraction()
-    {
-        Addition add = new Addition();
-        org.junit.Assert.assertEquals(6, add.getResultSubstraction(8,2));
-    }
-
-
 }
