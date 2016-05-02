@@ -18,7 +18,7 @@ public class TestCheckList001  {
     public void Addition0001()
 {
     Addition add = new Addition();
-    org.junit.Assert.assertEquals(7, add.getResult(3,4));
+    org.junit.Assert.assertEquals(70, add.getResult(3,4));
 }
 
     @Test
