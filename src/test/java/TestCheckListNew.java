@@ -21,7 +21,8 @@ public class TestCheckListNew extends TestProviderBase {
         gui = new GUITestServiceProvider(screen, "C:\\Formatech.TestAutomation\\src\\test\\Images\\", "C:\\Failed\\");
     }
 
-    ///HEre the comment
+    ///Here the comment
+    /// another commment
     //anoter dummy comment
     @Test
     @TestCheckList(Codes = "000",
@@ -40,6 +41,7 @@ public class TestCheckListNew extends TestProviderBase {
         }
         catch(Exception e)
         {
+
             super.HandleException(screen, gui, e);
         }
     }
