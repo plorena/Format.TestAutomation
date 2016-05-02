@@ -49,15 +49,14 @@ public class GUITestServiceProvider {
     }
 
     private void LoginInternal() throws org.sikuli.script.FindFailed {
-        try {
-            Runtime.getRuntime().exec("C:\\ForHRM\\Front Office\\ForHRMFrontOffice.exe", null, new File("C:\\ForHRM\\Front Office\\"));
-        } catch (IOException e) {
-          org.junit.Assert.assertNull("Executable ForHRMFrontOffice.exe not founded in C:\\ForHRM\\Front Office\\", null);
-        }
-        AttendrePourImage(4.0, "login_buttons");
+        if(s.exists(img("start_formatech"))!=null) {
+            s.click(img("start_formatech"));
+            AttendrePourImage(4.0, "login_buttons");
             s.type("manager");
             s.type(Key.ENTER);
             AttendrePourImage("menu");
+        }else
+            org.junit.Assert.assertNull("Icone pour lancer ForHRM n''a pas été trouvé",s.exists(img("start_formatech")) );
     }
 
 
