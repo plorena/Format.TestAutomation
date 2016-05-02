@@ -8,6 +8,8 @@ import org.junit.Test;
 import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
 
+
+///This is  a class dEMO
 @UserStoryInfo(sprint = "N/A", priority = UserStoryInfo.Priority.MEDIUM)
 public class TestCheckListNew extends TestProviderBase {
 
@@ -23,6 +25,7 @@ public class TestCheckListNew extends TestProviderBase {
 
     ///Here the comment
     /// another commment
+    //WTF!
     //anoter dummy comment
     @Test
     @TestCheckList(Codes = "000",
